@@ -1,50 +1,10 @@
-> 最近搞了一站点提交给sitemap给search console，结果一直显示**无法读取此站点地图**，sitemap多次核查是没有问题的，百度和bing等等收录正常，自己写了一个simemap生成器仍是如此。后来发现Google也是只是API提交的就尝试搞了一下。
+![](googleindex.png)
 
-- [参考: https://developers.google.com/search/apis/indexing-api/v3/quickstart?hl=zh-cn](https://developers.google.com/search/apis/indexing-api/v3/quickstart?hl=zh-cn)
+[en](README.md) ｜ [中文](README_CN.md)
 
-- 注册感觉没啥可说的按上面教程来就行，注意给授权就行。
+> Recently engaged in a site submitted to the sitemap to search console, the results have been displayed ** can not read this site map **, sitemap many times to verify that there is no problem, Baidu and bing, etc. included normal, write a simemap generator is still the case. Later found that Google is also just API submission try to get a little.
 
-- requirements.txt
 
-```txt
-beautifulsoup4==4.11.1
-bs4==0.0.1
-cachetools==5.2.0
-certifi==2022.6.15
-charset-normalizer==2.1.0
-google-api-core==2.8.2
-google-api-python-client==2.55.0
-google-auth-httplib2==0.1.0
-google-auth==2.9.1
-googleapis-common-protos==1.56.4
-httplib2==0.20.4
-idna==3.3
-oauth2client==4.1.3
-pip==21.3.1
-protobuf==4.21.4
-pyasn1-modules==0.2.8
-pyasn1==0.4.8
-pyparsing==3.0.9
-requests==2.28.1
-rsa==4.9
-setuptools==60.2.0
-six==1.16.0
-soupsieve==2.3.2.post1
-uritemplate==4.1.1
-urllib3==1.26.11
-wheel==0.37.1
-```
+# Copyright
 
-- 按照requirements.txt安装
-
-```shell
-pip install -r requirements.txt
-```
-
-- 注意配置修改代码与自己相关的json验证文件和网站地图文件的路径
-
-- 运行
-
-```shell
-python3 main.py
-```
+> This is paid content and unauthorized editing, plagiarism, distribution or use is a copyright infringement. To use, please visit [https://emperinter.gumroad.com/l/googleindexapi](https://emperinter.gumroad.com/l/googleindexapi) to purchase. Paid consulting services are also available. For paid consulting services, please contact us at emperinter@outlook.com !
